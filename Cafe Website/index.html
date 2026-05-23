@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Website</title>
+  </head>
+  <!-- Link for awesome font for icon -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+  />
+  <!-- Link for swiper the testimonials slider -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+
+  <body>
+    <!-- Header  / navbar  -->
+    <header>
+      <nav class="navbar section-content">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">☕Dream Café</h2>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero section  -->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">Best Coffee</h2>
+            <h3 class="subtitle">
+              Make your day grate with pur special coffee!
+            </h3>
+            <p class="description">
+              Welcome to our coffee paeadise, where every bean tells a story and
+              every cup spark joy.
+            </p>
+            <div class="buttons">
+              <a href="#contact" class="button order-now">Order Now</a>
+              <a href="#contact" class="button contact-us">Contact Us</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="Images/coffee2.png" alt="Hero" class="hero-image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About us section-->
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img
+              src="newImages/images6.jpg"
+              alt="CEO Of Company"
+              class="about-image"
+            />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">About Us</h2>
+            <p class="text">
+              Welcome to our café, where every guest is treated like a close
+              friend and every cup is crafted with care. We take pride in our
+              warm hospitality, cozy atmosphere, and a modern twist on coffee
+              that you won’t find anywhere else. Our new specialty brew is
+              smooth, rich, and perfectly balanced — designed to give you a
+              fresh experience in every sip. Come in, relax, and let us serve
+              you something truly special. ☕✨
+            </p>
+            <div class="social-link-list">
+              <a href="www.facebook.com" target="_blank" class="social-link">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="www.instagram.com" target="_blank" class="social-link">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="www.twitter.com" target="_blank" class="social-link">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="www.whatsapp.com" target="_blank" class="social-link">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu Section-->
+      <section class="menu-section" id="menu">
+        <h2 class="section-title">Our Menu</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img src="Images/coffee3.png" alt="Espresso" class="menu-image" />
+              <h3 class="name">Espresso</h3>
+              <p class="text">
+                A bold and rich single shot of pure coffee with a smooth crema
+                on top. Small in size, big in flavor.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="Images/coffee1.jpg"
+                alt="Americano"
+                class="menu-image"
+              />
+              <h3 class="name">Americano</h3>
+              <p class="text">
+                Espresso blended with hot water for a smooth, balanced, and
+                classic black coffee experience.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="Images/coffee5.png"
+                alt="Cappuccino"
+                class="menu-image"
+              />
+              <h3 class="name">Cappuccino</h3>
+              <p class="text">
+                A perfect harmony of espresso, steamed milk, and thick foam.
+                Creamy, light, and comforting.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img src="Images/coffee4.jpg" alt="Latte" class="menu-image" />
+              <h3 class="name">Latte</h3>
+              <p class="text">
+                Smooth espresso mixed with silky steamed milk and a light layer
+                of foam. Soft, creamy, and easy to love.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="Images/coffee6.png"
+                alt="Flat White"
+                class="menu-image"
+              />
+              <h3 class="name">Flat White</h3>
+              <p class="text">
+                Stronger than a latte, with velvety microfoam and a rich
+                espresso flavor.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img src="Images/coffee7.png" alt="Mocha" class="menu-image" />
+              <h3 class="name">Mocha</h3>
+              <p class="text">
+                Espresso with chocolate and steamed milk, topped with foam.
+                Sweet, rich, and indulgent.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="Images/cupcake1.png"
+                alt="Cup Cake"
+                class="menu-image"
+              />
+              <h3 class="name">Cup Cake</h3>
+              <p class="text">
+                A soft, fluffy treat topped with creamy frosting, baked fresh to
+                bring a sweet smile in every bite.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img src="Images/fastfood1.png" alt="Burger" class="menu-image" />
+              <h3 class="name">Burger</h3>
+              <p class="text">
+                A juicy, flavorful burger made with fresh ingredients and served
+                in a soft bun for the perfect satisfying bite.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="Images/fastfood2.png"
+                alt="Sandwich"
+                class="menu-image"
+              />
+              <h3 class="name">Sandwich</h3>
+              <p class="text">
+                Freshly prepared with crisp veggies, quality fillings, and soft
+                bread — simple, tasty, and filling.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="Images/icecream.png"
+                alt="Ice Cream"
+                class="menu-image"
+              />
+              <h3 class="name">Ice Cream</h3>
+              <p class="text">
+                Creamy, smooth, and delightfully cold, available in delicious
+                flavors to refresh and sweeten your day.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="Images/juice1.png"
+                alt="Orange Juice"
+                class="menu-image"
+              />
+              <h3 class="name">Orange Juice</h3>
+              <p class="text">
+                Freshly squeezed orange juice, naturally sweet, refreshing, and
+                full of energy.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="Images/juice3.png"
+                alt="Orange Juice with Mint"
+                class="menu-image"
+              />
+              <h3 class="name">Orange Juice with Mint</h3>
+              <p class="text">
+                Fresh orange juice blended with cool mint for a refreshing,
+                vibrant, and energizing drink.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Testimonials section -->
+      <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="newImages/first.jpg"
+                    alt="User"
+                    class="user-image"
+                  />
+                  <h3 class="name">Kashton Green</h3>
+                  <i class="feedback">
+                    Amazing customer service and high-quality food. You can
+                    truly feel the care they put into every drink and dessert
+                  </i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="newImages/images1.jpg"
+                    alt="User"
+                    class="user-image"
+                  />
+                  <h3 class="name">Maxton Gill</h3>
+                  <i class="feedback">
+                    Fantastic place for coffee lovers! Modern, friendly, and
+                    full of positive energy. Highly recommended!
+                  </i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="newImages/images3.jpg"
+                    alt="User"
+                    class="user-image"
+                  />
+                  <h3 class="name">Franklin Sierra</h3>
+                  <i class="feedback">
+                    Very clean and stylish café with a warm welcome. The staff
+                    make you feel like a special guest every time.
+                  </i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="newImages/images4.jpg"
+                    alt="User"
+                    class="user-image"
+                  />
+                  <h3 class="name">Zavier Todd</h3>
+                  <i class="feedback">
+                    A beautiful café with a warm and relaxing vibe.
+                  </i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="newImages/images5.jpg"
+                    alt="User"
+                    class="user-image"
+                  />
+                  <h3 class="name">Bowen Higgins</h3>
+                  <i class="feedback">
+                    Great coffee, friendly staff, and a cozy atmosphere. Loved
+                    it!
+                  </i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="newImages/images7.png"
+                    alt="User"
+                    class="user-image"
+                  />
+                  <h3 class="name">Jaylen Blackwell</h3>
+                  <i class="feedback">
+                    Amazing service and delicious drinks. Will visit again!
+                  </i>
+                </li>
+              </ul>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery section -->
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img
+                src="Images/Galleryimg/gallery10.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="Images/Galleryimg/gallery11.png"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="Images/Galleryimg/gallery2.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="Images/Galleryimg/gallery12.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="Images/Galleryimg/gallery1.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="Images/Galleryimg/gallery3.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="Images/Galleryimg/gallery4.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="Images/Galleryimg/gallery5.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="Images/Galleryimg/gallery6.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="Images/Galleryimg/gallery7.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="Images/Galleryimg/gallery8.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="Images/Galleryimg/gallery9.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact us section -->
+      <section class="content-section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>kabul Afghanistan</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>cafe.shop@gmail.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>(093) 748 101 784</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Saturday - Wednesday 8:00 Am - 4:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Thursday 8:00 Am - 12:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Friday: Close</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-globe"></i>
+              <p>www.sahakweb.com</p>
+            </li>
+          </ul>
+          <form action="#" class="contact-form">
+            <input
+              type="text"
+              placeholder="Your name"
+              class="form-input"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Your email"
+              class="form-input"
+              required
+            />
+            <textarea
+              placeholder="Your massage"
+              class="form-input"
+              required
+            ></textarea>
+            <button class="submit-button">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- footer section -->
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">@ 2026 Coffee Shop</p>
+          <div class="social-link-list">
+            <a href="www.facebook.com" target="_blank" class="social-link">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="www.instagram.com" target="_blank" class="social-link">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="www.twitter.com" target="_blank" class="social-link">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="www.whatsapp.com" target="_blank" class="social-link">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+          <p class="policy-text">
+            <a href="#" class="policy-link">Privacy Policy</a>
+            <span class="separator">*</span>
+            <a href="#" class="policy-link">Refund Policy</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Link for swiper the testimonials slider -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- Link for close and open for small screen -->
+    <script src="script.js"></script>
+  </body>
+</html>
